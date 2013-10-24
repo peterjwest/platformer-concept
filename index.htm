@@ -1,0 +1,22 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+    <title>Platformer</title>
+	<script type="text/javascript" src="vendor/jquery.js"></script>
+	<script type="text/javascript" src="vendor/json2.js"></script>
+	<script type="text/javascript" src="lib/Loader.js"></script>
+	<script type="text/javascript" src="lib/GameObject.js"></script>
+	<script type="text/javascript" src="lib/RepeatingGameObject.js"></script>
+	<script type="text/javascript" src="lib/AnimatedGameObject.js"></script>
+	<script type="text/javascript" src="lib/Player.js"></script>
+	<script type="text/javascript" src="lib/Level.js"></script>
+	<script type="text/javascript" src="lib/Game.js"></script>
+	<script type="text/javascript">
+		var game = new Game();
+		$(document).ready(function() { game.init(40); });
+	</script>
+</head>
+<body>
+    <canvas id="canvas" width="600" height="400"></canvas>
+</body>
+</html>
